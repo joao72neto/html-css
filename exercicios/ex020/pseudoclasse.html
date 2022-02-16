@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes </title>
+    <style>
+        a{
+            text-decoration: solid;
+            color:black;
+        }
+        a:hover{
+            text-shadow: 1px 1px 10px black;
+            color: white;
+            font-size: 1.1em;
+        }
+        div{
+            text-align: center;
+            background-color: lightgray;
+            font: italic bold 2em arial, sans-serif;
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+        div#pagina02{
+            font: italic bold 2em arial, sans-serif;
+            background-color: lightgray;
+            text-align: center;
+            width: 616px;
+            height: 45px;
+        }
+        div:hover{
+            background-color: blue;
+            color: white;
+        }
+        div#pagina02:hover{
+            background-color: rgb(255, 136, 0);       
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div> <br> <br>
+    <div id="pagina02"><a href="hover.html">Próxima Página</a></div>
+    
+</body>
+</html>

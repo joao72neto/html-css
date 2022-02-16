@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em diferentes disposotivos, ou simplismente aumente ou diminua a tela do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Texto Flexível">
+    </picture>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="Mídia/Teste HTML5 mp3.mp3" type="audio/mpeg">
+        <source src="Mídia/Teste HTML5 ogg.ogg" type="audio/ogg">
+        <source src="Mídia/Teste HTML5 wav.wav" type="audio/wav">
+        <a href="Mídia/Teste HTML5 wav.wav">Clique aqui</a>p
+        <p>para fazer o download do arquivo em WAV</p>
+    </audio>
+</body>
+</html>

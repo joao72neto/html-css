@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, lightgray, gray);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+
+}
+header{
+    background-color: white;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.678);
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.342);
+    font-style: italic;
+    border-radius: 20px;
+    border: 3px dashed black;
+    margin: 20px
+    
+    
+}     
+header > nav{
+    background-color: gray;
+    padding: 10px;
+    box-shadow: inset 1px 1px 15px rgba(0, 0, 0, 0.466);
+}
+nav > div{
+    display: inline;
+    margin: 15px;
+    font-weight: bold;
+    
+}
+a.link{
+    color: white;
+    text-decoration: none;
+}
+div:hover > a{
+    text-decoration: underline;
+    color: black;
+}
+div:active > a{
+    color: darkred;
+}
+section#esportes{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+}
+section#dieta{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+}
+section#noticias{
+    background-color: white;
+    padding: 10px;
+    margin: 0px 10px 20px 10px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 15px;
+}
+aside{
+    background-color: lightgray;
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 1px;
+}
+main > h2{
+    text-align: center;
+    margin: 20px 0px;
+    background-color: rgb(54, 51, 51);
+    color: white;
+    padding: 3px;
+}
+
+div#bola{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 50%;
+    box-shadow: inset 5px 5px 80px 30px rgba(0, 0, 0, 0.726);
+}
+h1#h1bola{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    box-shadow: 1px 5px 50px 10px rgba(0, 0, 0, 0.384);
+    
+    
+    
+
+}
