@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alihamento Vertical</title>
+    <title>Alinhamento Vertical</title>
     <style>
         #container{
-            height: 500px;
+            position: relative;
             background-color: purple;
+            height: 98vh;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
             padding: 10px;
+
+
         }
         #conteudo{
-            height: 200px;
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             background-color: yellow;
-            width: 500px;
+            height: 200px;
+            width: 300px;
+        }
     </style>
 </head>
 <body>
@@ -23,5 +35,6 @@
 
         </article>
     </section>
+    
 </body>
 </html>
