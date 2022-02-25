@@ -2,29 +2,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 :root{
     --font01: 'Barriecito', cursive;
 }
 body{
+    padding-top: 30px ;
     background-color: rgb(31, 31, 31);
     color: white;
     text-align: center;
+    background-image: url('../imagens/papel-de-parede-azul.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 main h1{
     font-family: var(--font01);
     font-weight: normal;
     font-size: 3em;
+    padding-bottom: 43px;
 }
 main{
     margin: auto;
-    max-width: 800px;
+    max-width: 600px;
+    background-color:rgb(31, 31, 31);
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 10px 3px black;
 }
 main img{
      position: relative;
      border-radius: 15px;
  }
 main img:hover{
-     box-shadow: 1px 1px 15px 5px rgba(255, 255, 255, 0.342);
+     box-shadow: 1px 1px 15px 5px black;
      transition-duration: 0.2s;
      
 }
@@ -45,7 +61,7 @@ main img:hover{
 
  }
  div#video-manual-mundo{
-    background-image: linear-gradient(to right, blue, rgb(0, 0, 75));
+    background-image: linear-gradient(to right, blue, rgb(95, 95, 228), rgb(2, 51, 124));
     position: relative;
     padding-bottom: 45%;
     margin: 50px;
