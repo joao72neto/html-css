@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+
+:root{
+    --font01: 'Barriecito', cursive;
+}
+body{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    text-align: center;
+}
+main h1{
+    font-family: var(--font01);
+    font-weight: normal;
+    font-size: 3em;
+}
+main{
+    margin: auto;
+    max-width: 800px;
+}
+main img{
+     position: relative;
+     border-radius: 15px;
+ }
+main img:hover{
+     box-shadow: 1px 1px 15px 5px rgba(255, 255, 255, 0.342);
+     transition-duration: 0.2s;
+     
+}
+
+ div#video-buzz{
+    background-image: linear-gradient(to right, orange, red, purple, blue);
+    position: relative;
+    padding-bottom: 45%;
+    margin: 50px;
+    border-radius: 20px;  
+ }
+ div#video-aranha{
+    background-image: linear-gradient(to right, blue, red);
+    position: relative;
+    padding-bottom: 45%;
+    margin: 50px;
+    border-radius: 20px;  
+
+ }
+ div#video-manual-mundo{
+    background-image: linear-gradient(to right, blue, rgb(0, 0, 75));
+    position: relative;
+    padding-bottom: 45%;
+    margin: 50px;
+    border-radius: 20px;  
+ }
+ div#video-rob{
+    background-image: linear-gradient(to right, green, rgb(165, 87, 42), red);
+    position: relative;
+    padding-bottom: 45%;
+    margin: 50px;
+    border-radius: 20px;  
+
+ }
+iframe{
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     width: 90%;
+     height: 90%;
+     border-radius: 20px;
+    
+ }
+
